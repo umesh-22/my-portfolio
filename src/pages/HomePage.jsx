@@ -25,7 +25,7 @@ const HomePage = () => {
       
 
       <BackgroundBeamsWithCollision>
-      <div id="home" className="grid grid-cols-1 md:grid-cols-2 mb-16">
+      <div id="home" className="grid grid-cols-1 md:grid-cols-2 mb-16 ">
  
   <div className="flex justify-center items-center mb-4 md:mb-0">
     <TypeWriteName />

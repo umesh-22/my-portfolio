@@ -1,10 +1,11 @@
 
 svg text{
-    stroke: rgb(31, 26, 26);
-    font-size: 150px;
-    font-weight: 700;
-    stroke-width: 5 ;
-    animation: lineAnime 5s ease forwards;
+ 
+    font-size: 210px;
+    font-weight: 900;
+    stroke-width: 7 ;
+    stroke: rgb(45, 40, 182);
+    animation: lineAnime  5s ease forwards, fillColor ;
 }
 @keyframes lineAnime {
     0% {
@@ -18,6 +19,20 @@ svg text{
 
     }
     
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+
+}
+
+@keyframes fillColor {
+
+    to {
+        fill: white;
+    }
 }
  /* @media (max-width: 1600px) {
     #logo {

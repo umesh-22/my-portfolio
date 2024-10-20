@@ -1,4 +1,4 @@
-import ExperienceTimeLine from "../components/project/ExperienceTimeLine"
+import ExperienceTimeLine from "../components/timeline/ExperienceTimeLine"
 
 
 const Experience = () => {

@@ -1,4 +1,4 @@
-import ProjectTimeLine from "../components/project/ProjectTimeLine"
+import ProjectTimeLine from "../components/timeline/ProjectTimeLine"
 
 
 const Projects = () => {

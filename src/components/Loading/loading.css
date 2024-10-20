@@ -3,11 +3,13 @@
     height: 100vh;
     width: 100%;
     overflow: hidden;
+            background: linear-gradient(to bottom right, #000D19, #000A10, #030C11, #020B11, #020B11, #020B11, #020B11, #020B11, #020A10, #000000);
+
     animation: sc 1s linear forwards 10s ;
     /* background: aqua; */
     /* background: linear-gradient(to bottom right, #000D19, #000A10, #030C11, #020B11, #020B11, #020B11, #020B11, #020B11, #020A10, #000000); */
     /* background: linear-gradient(to bottom right, #FFFFFF, #E0E0E0, #C0C0C0, #A0A0A0, #808080, #606060, #404040, #202020, #000000); */
-    background: linear-gradient(to bottom right, #F5F5F5, #E0E0E0, #A9A9A9, #707070, #505050, #303030, #101010, #000000);
+    /* background: linear-gradient(to bottom right, #F5F5F5, #E0E0E0, #A9A9A9, #707070, #505050, #303030, #101010, #000000); */
 
 
 }
@@ -36,18 +38,3 @@
     }
 }
 
-@keyframes backgroundTransition {
-    0% {
-        background: linear-gradient(to bottom right, #000D19, #000A10, #030C11, #020B11, #020B11, #020B11, #020B11, #020B11, #020A10, #000000);
-    }
-    100% {
-        background: linear-gradient(to bottom right, #FFFFFF, #E0E0E0, #C0C0C0, #A0A0A0, #808080, #606060, #404040, #202020, #000000);
-    }
-}
-
-.loading_container {
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    animation: sc 1s linear forwards 10s, backgroundTransition 5s linear forwards 15s; /* Adjust timing as needed */
-}
