@@ -11,20 +11,25 @@ function App() {
   
   const [loading ,setLoading] = useState(true)
   useEffect(()=>{
-    setTimeout(()=>{
-      setLoading(false)
-    },5000)
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+
+    
+    return () => {
+      clearTimeout(timer);
+    };
   })
  
   return (
    <>
-    <HomePage />
+    {/* <HomePage />
       <Experience />
       <Skills />
       <Projects />
-      <Contact />
+      <Contact /> */}
    
-{/*  
+ 
  
    {
     loading ? ( <Loading /> ): ( <>
@@ -35,7 +40,7 @@ function App() {
       <Projects />
       <Contact />
     </>)
-   } */}
+   }
 
    
   
