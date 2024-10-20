@@ -4,7 +4,7 @@ svg text{
     font-size: 210px;
     font-weight: 900;
     stroke-width: 7 ;
-    stroke: rgb(45, 40, 182);
+    stroke: #3B82F6;
     animation: lineAnime  5s ease forwards, fillColor ;
 }
 @keyframes lineAnime {
