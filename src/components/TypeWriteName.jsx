@@ -37,11 +37,11 @@ const TypeWriteName = () => {
   return (
     <div className="flex flex-col items-center justify-center h-[40rem] playwrite-gb-s-regular">
       <div className="pb-5">
-        <p className="text-neutral-600 dark:text-neutral-200 text-xl  md:text-3xl text-center  mb-1 ">
+        <p className=" text-neutral-200 text-xl  md:text-3xl text-center  mb-1 ">
           Hi..
         </p>
 
-        <p className="text-neutral-600 text-center dark:text-neutral-200 text-2xl md:text-4xl ">
+        <p className=" text-center text-neutral-200 text-2xl md:text-4xl ">
           I&apos;m a{" "}
           <span className="text-blue-500 dark:text-blue-500 playwrite-gb-s-regular">
             {" "}
@@ -53,7 +53,7 @@ const TypeWriteName = () => {
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-10">
         <button
           onClick={handleDownloadResume}
-          className="w-40 h-10 rounded-xl bg-black border hover:bg-blue-500  dark:border-white border-transparent text-white text-sm"
+          className="w-40 h-10 rounded-xl  border hover:bg-blue-500  border-white border-transparent text-white text-sm"
         >
           Download Resume
         </button>

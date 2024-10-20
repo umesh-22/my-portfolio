@@ -9,7 +9,7 @@ import Image from "../Image";
 
 
 const ProjectTimeLine = () => {
-  const experience = "Here is my personal project works";
+  const text = "Here is a list of my personal project works";
   const heading = "Crafting Code Stories"
 
 
@@ -25,13 +25,13 @@ const ProjectTimeLine = () => {
           <div className="flex flex-wrap mb-4"> 
           
             {project.technologies.map((tech, index) => (
-              <span key={index} className="mr-2 text-xs bg-blue-500 text-white rounded px-2  mb-1 py-1">
+              <span key={index} className="mr-2 text-xs hover:bg-neutral-200  cursor-pointer hover:text-blue-500 transition-all bg-blue-500 text-white rounded px-2  mb-1 py-1">
                 {tech}
               </span>
             ))}
           </div>
           <div className=" mb-1">
-          <a href={project.link} target="_blank" className="mr-2 text-xs bg-blue-500 text-white rounded px-2 py-1">App / Github Link </a>
+          <a href={project.link} target="_blank" className="mr-2 text-xs hover:bg-neutral-200 hover:text-blue-500 bg-blue-500 text-white rounded px-2 py-1">App / Github Link </a>
 
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -43,7 +43,7 @@ const ProjectTimeLine = () => {
                 alt={`${project.title} image ${index + 1}`} 
                 width={500}
                 height={500}
-                className=" rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                className="rounded-lg object- h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
               />
             ))}
           </div>
@@ -178,7 +178,7 @@ const ProjectTimeLine = () => {
     //   ];
   return (
     <div className="w-full">
-    <Timeline data={data} text={experience} heading={heading} />
+    <Timeline data={data} text={text} heading={heading} />
   </div>
   )
 }

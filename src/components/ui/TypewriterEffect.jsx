@@ -40,7 +40,7 @@ export const TypewriterEffect = ({
                 <motion.span
                   initial={{}}
                   key={`char-${index}`}
-                  className={cn(`dark:text-white text-black opacity-0 hidden `, word.className)}
+                  className={cn(`text-white  opacity-0 hidden `, word.className)}
                   style={{ marginRight: '2px' }} // Add spacing between characters
                 >
                   {char}
