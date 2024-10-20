@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.playwrite-gb-s-regular {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 6px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: black; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #19299f; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Roundness of the scrollbar thumb */
+  border: 2px solid transparent; /* Optional: adds spacing around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: black; /* Darker color when hovering */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Set the width of the scrollbar */
+  scrollbar-color: #19299f black; /* Scrollbar thumb and track color */
+}
+
