@@ -22,7 +22,7 @@ const projectsData = [{
   description:
     "SparkChat is a dynamic, real-time messaging platform designed for seamless communication and collaboration. With a modern and intuitive interface, SparkChat allows  users can easily sign up or log in, chat instantly, and share files. With features like emoji support and file uploads, SparkChat is designed for dynamic, interactive communication.",
   link: "https://spark-chat-2024.vercel.app",
-  image: [auth, otp, chat,profile,search,search1],
+  image: [auth, otp, chat,search1],
   technologies: [
     "React",
     "TailwindCSS",
