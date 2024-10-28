@@ -8,7 +8,32 @@ import admin from "../assets/SpeedyCars/admin.png";
 import cars from "../assets/SpeedyCars/cars.png";
 import booking from "../assets/SpeedyCars/booking.png";
 
-const projectsData = [
+
+
+import auth from "../assets/SparkChat/auth.png";
+import otp from "../assets/SparkChat/otp.png";
+import chat from "../assets/SparkChat/chat.png";
+import profile from "../assets/SparkChat/profile.png";
+import search from "../assets/SparkChat/search.png";
+import search1 from "../assets/SparkChat/search2.png";
+
+const projectsData = [{
+  title: "SparkChat",
+  description:
+    "SparkChat is a dynamic, real-time messaging platform designed for seamless communication and collaboration. With a modern and intuitive interface, SparkChat allows  users can easily sign up or log in, chat instantly, and share files. With features like emoji support and file uploads, SparkChat is designed for dynamic, interactive communication.",
+  link: "https://spark-chat-2024.vercel.app",
+  image: [auth, otp, chat,profile,search,search1],
+  technologies: [
+    "React",
+    "TailwindCSS",
+    "WebSocket",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Cloudinary",
+  ],
+},
+
   {
     title: "My-Portfolio",
     description:

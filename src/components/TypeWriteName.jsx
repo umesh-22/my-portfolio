@@ -43,7 +43,7 @@ const TypeWriteName = () => {
 
         <p className=" text-center text-neutral-200 text-2xl md:text-4xl ">
           I&apos;m a{" "}
-          <span className="text-blue-500 dark:text-blue-500 playwrite-gb-s-regular">
+          <span className="text-blue-500 text-2xl md:text-4xl dark:text-blue-500 playwrite-gb-s-regular">
             {" "}
             Web Developer.
           </span>
